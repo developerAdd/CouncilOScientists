@@ -1,0 +1,67 @@
+.notfound {
+  width: 100%;
+  position: relative;
+  margin-top: var(--lg);
+}
+.notfound__content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.notfound__info {
+  width: calc(100% - 300px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-right: 30px;
+}
+.notfound__title {
+  color: var(--color-black-text);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.4%;
+  margin-bottom: 15px;
+}
+.notfound__text {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.notfound__descr {
+  width: 100%;
+  text-align: left;
+  color: var(--color-black-text);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 133.4%;
+  margin-bottom: 15px;
+}
+.notfound__search {
+  width: 100%;
+  max-width: 440px;
+  margin-bottom: 20px;
+}
+.notfound__descr:last-child {
+  margin-bottom: 0;
+}
+.notfound__link {
+  color: var(--color-blue);
+  cursor: pointer;
+}
+.notfound__img {
+  max-width: 295px;
+}
+
+@media screen and (max-width: 768px) {
+  .notfound__info {
+    width: 100%;
+    padding-right: 0;
+  }
+  .notfound__img {
+    display: none;
+  }
+}
